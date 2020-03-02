@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Galaxy Tours and Travel </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dhakal Anil">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+              crossorigin="anonymous">
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+              rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+              crossorigin="anonymous"> 
+        <link href="css/myStyle.css" rel="stylesheet"/>
+        <link href="css/galaxy.css" rel="stylesheet"/>
+    </head>
+    <body id="pic">
+        <div class="container-fluid">
+            <header class="row bg-info">                
+                <div class="col-sm-10">
+                    <h1 class="text-warning text-center"> Galaxy Tours and Travel Nepal </h1>
+                    <p class="text-danger text-center"> This is a Test Web-page for self learning</p>
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                data-target="#myNav" aria-controls="myNav" 
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="myNav">
+                            <a class="nav-item nav-link text-light" href="index.html"> 
+                                <i class="fa fa-home" aria-hidden="true"></i> Home </a>
+                            <a class="nav-item nav-link text-light" href="about.html"> About </a>
+                            <a class="nav-item nav-link text-light" href="#"> Contact </a>
+                            <span class="nav-item nav-link text-light"> 
+                                <i class="fa fa-envelope" aria-hidden="true"></i> anil.dhakal@gmail.com </span>
+                            <span class="nav-item nav-link text-light"> 
+                                <i class="fa fa-volume-control-phone" aria-hidden="true"></i> +358-0123-456789 </span>
+
+                        </div>
+                        <div class="col-md-5">
+                            <label class="d-inline justify-content-sm-center d-inline 
+                                   justify-content-md-end text-light"> Email </label>
+                            <input type= "Text" name="email" id="email" placeholder="">
+
+                            <label class="d-inline justify-content-sm-center d-inline 
+                                   justify-content-md-end text-light"> Password </label>
+                            <input  type= "password" name="password" id="password" placeholder="">
+
+                            <button class="mb-2 mt-2" type="send"> Login </button>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+        </div>
+        <div class="row mt-3" id="pic">
+            <div class="col">
+                <div class="container">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="fname" class="text-dark font-weight-bolder"> First Name </label>
+                                <input type="name" class="form-control" placeholder="f-name">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="lname" class="text-dark font-weight-bolder"> Last Name </label>
+                                <input type="name" class="form-control" placeholder="l-name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="email" class="text-dark font-weight-bolder"> Email </label>
+                                <input type="text" class="form-control" placeholder="email" required="">
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="phone" class="text-dark font-weight-bolder"> Phone </label>
+                                <input type="number" class="form-control" placeholder="+358-  ">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="address" class="text-dark font-weight-bolder"> Address </label>
+                                <input type="text" class="form-control" placeholder="street address ">
+                            </div>
+                            <div class="form-group col-md-4">
+                                <label for="city" class="text-dark font-weight-bolder"> City </label>
+                                <select id="inputState" class="form-control">
+                                    <option selected>Choose...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-md-2">
+                                <label for="zip" class="text-dark font-weight-bolder">Zip</label>
+                                <input type="number" class="form-control" placeholder="01234">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" required>
+                                <label class="form-check-label text-dark font-weight-bolder" >
+                                    Agree to terms and conditions
+                                </label>
+                                <div class="invalid-feedback">
+                                    You must agree before submitting.
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary"> Submit </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
+        <script src="js/galaxy.js"></script>
+    </body>
+</html>

@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Galaxy Tours and Travel </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Dhakal Anil">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+              integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+              crossorigin="anonymous">
+        <link href="css/bootstrap.css" rel="stylesheet"/>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+              rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" 
+              crossorigin="anonymous"> 
+        <link href="css/myStyle.css" rel="stylesheet"/>
+        <link href="css/galaxy.css" rel="stylesheet"/>
+    </head>
+
+    <body onload="showCalendar()">
+        <div class="container-fluid">
+            <header class="row bg-info">                
+                <div class="col-sm-10">
+                    <h1 class="text-warning text-center"> Galaxy Tours and Travel Nepal </h1>
+                    <p class="text-danger text-center"> This is a Test Web-page for self learning</p>
+                </div>
+                <div class="col">
+                    <nav class="navbar navbar-expand-md navbar-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" 
+                                data-target="#myNav" aria-controls="myNav" 
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="myNav">
+                            <a class="nav-item nav-link text-light" href="#"> 
+                                <i class="fa fa-home" aria-hidden="true"></i> Home </a> 
+                                <a class="nav-item nav-link text-light" href="about.html"> About </a>
+                                <a class="nav-item nav-link text-light" href="contact.html"> Contact </a>
+                                <span class="nav-item nav-link text-light"> 
+                                    <i class="fa fa-envelope" aria-hidden="true"></i> anil.dhakal@gmail.com </span>
+                                <span class="nav-item nav-link text-light"> 
+                                    <i class="fa fa-volume-control-phone" aria-hidden="true"></i> +358-0123-456789 </span>
+                        </div>
+                        <div class="col-md-5">
+                            <label class="d-inline justify-content-sm-center d-inline 
+                                   justify-content-md-end text-light"> Email </label>
+                            <input type= "Text" name="email" id="email" placeholder="">
+
+                            <label class="d-inline justify-content-sm-center d-inline 
+                                   justify-content-md-end text-light"> Password </label>
+                            <input  type= "password" name="password" id="password" placeholder="">
+
+                            <button class="mb-2 mt-2" type="send"> Login </button>
+
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="row">
+                <div class="col border border-danger pl-0 pr-0">
+                    <div id="carousel2" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel2" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel2" data-slide-to="1"></li>
+                            <li data-target="#carousel2" data-slide-to="2"></li>
+                            <li data-target="#carousel2" data-slide-to="3"></li>
+                            <li data-target="#carousel2" data-slide-to="4"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="img/one.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/five.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/two.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/three.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="img/four.jpg" class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel2" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel2" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <section class="row">
+                <div class="col-md-3 bg-success">
+                    <h4 class="text-warning"> Holiday Packages </h4>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox" checked>
+                        <label class="form-check-label"> Bhotay Koshi Bungee Jumping </label>
+                    </div>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label"> Sukute Beach Rafting </label>
+                    </div>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label"> Chisapani Hiking </label>
+                    </div>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label"> Manakaman Visit </label>
+                    </div>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label"> Mustang Tour </label>
+                    </div>
+
+                    <div class="form-check text-white">
+                        <input class="form-check-input" type="checkbox">
+                        <label class="form-check-label"> Annapurna Base Camp Trekking </label>
+                    </div>
+
+                    <button data-toggle="collapse" data-target="#text1" 
+                            class="btn btn-dark mt-2 mb-2"> Check Out 
+                        <i class="fa fa-shopping-basket" aria-hidden="true"></i></button> 
+                </div>
+                <div class="col-md-3 bg-success">
+                    <h4 class="text-warning"> Domestic Flights <i class="fa fa-plane" 
+                                                                  aria-hidden="true"></i> </h4>
+
+                    <div class="form-check form-check-inline mb-2 text-white">
+                        <input class="form-check-input" type="radio" 
+                               name="trip" id="round" value="R_trip" checked>
+                        <label class="form-check-label" for="R_trip"> Round Trip </label>
+                    </div>
+
+                    <div class="form-check form-check-inline text-white">
+                        <input class="form-check-input" type="radio" 
+                               name="trip" id="oneway" value="O_trip">
+                        <label class="form-check-label" for="O_trip"> One Way </label>
+                    </div>
+
+                    <form>
+                        <div class="input-group mt-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> Departure </span>
+                            </div> 
+                            <input type="text" class="form-control" placeholder="From">
+                        </div>
+
+                        <div class="input-group mt-3 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> Arrival </span>
+                            </div>
+                            <input type="text" class="form-control" placeholder="To">
+                        </div>
+
+                        <div class="input-group mt-3 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> Going </span>
+                            </div>
+                            <input type="number" class="form-control" name="date1" placeholder="">
+                        </div>
+
+                        <div class="input-group mt-3 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> Return </span>
+                            </div>
+                            <input type="number" class="form-control" name="date2" placeholder="">
+                        </div>
+
+                        <div class="input-group mt-3 mb-3">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text"> No. of Passengers </span>
+                            </div>
+                            <input type="number" class="form-control" placeholder="enter No.">
+                        </div>
+                    </form>
+
+                    <div>
+                        <button data-toggle="collapse" data-target="#text2" 
+                                class="btn btn-dark mt-2 mb-2"> Search 
+                            <i class="fa fa-search" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+
+                <div class="col-md-3 bg-success">
+                    <h4 class="text-warning"> Bus Tickets <i class="fa fa-bus" 
+                                                             aria-hidden="true"></i>  </h4>
+                    <label class="text-white"> From: </label>
+                    <input type="text" class="form-control" placeholder="Origin">
+
+                    <label class="text-white"> To: </label>
+                    <input type="text" class="form-control" placeholder="Destination">
+
+
+                    <button data-toggle="collapse" data-target="#text3" 
+                            class="btn btn-dark mt-2 mb-2"> Find 
+                        <i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+                <div class="col-md-3 bg-success">
+                    <h4 class="text-warning"> Why Galaxy <i class="fa fa-question-circle-o" 
+                                                            aria-hidden="true"></i> </h4>
+                    <ul class="list-group list-group-flush text-white">
+                        <li class="list-group-item bg-transparent"> 
+                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true">   
+                            </i> Trusted by Travelers </li>
+
+                        <li class="list-group-item bg-transparent"> 
+                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i> Great 
+                            value for you<span class="text-dark"><b> Time </b></span> and 
+                            <span class="text-dark"><b> Money </b></span> </li>
+
+                        <li class="list-group-item bg-transparent"> 
+                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true">                                
+                            </i> Support 24-7 </li>
+
+                        <li class="list-group-item bg-transparent"> 
+                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true">                                
+                            </i> Indelible Memories </li>
+
+                        <li class="list-group-item bg-transparent"> 
+                            <i class="fa fa-arrow-circle-o-right" aria-hidden="true">                               
+                            </i> Flexible and Mutual Crew Members </li>
+
+                    </ul>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-9 bg-dark">
+                    <h3 class="text-warning"> Our Popular Destinations </h3>
+                    
+                </div>
+                <div class="col-3 bg-dark">
+                   <h3 class="text-warning d-inline justify-content-md-end"> Event Calander </h3> 
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/one.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Kathmandu Valley Tour </h5>
+                            <p class="card-text text-justify"> Boudhanath is one of the famous 
+                                place in Kathmandu. It is also known as Monkey Temple.
+                                It is also listed in the <span class="text-danger font-weight-bold font-italic">
+                                    "World Heritage Site".</span> Monkey Temple 
+                                is symbol of peace and one of the religious place for 
+                                the followers of Buddhism.
+                            </p>
+                            <button onclick="getMore()" class="btn btn-primary">
+                                <i class="fa fa-database" aria-hidden="true"></i> More Details </button>
+                                <p id="ktm" class="text-justify">   </p>
+                        </div>
+                    </div> 
+                </div>                                
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="row no-gutters">
+                            <div class="col-md-5">
+                                <img src="img/eight.jpg" class="card-img" alt="...">
+                            </div>
+                            <div class="col-md-7">
+                                <div class="card-body">
+                                    <h5 class="card-title"> Jungle Safari </h5>
+                                    <p class="card-text text-justify"> Among the 
+                                        famous tours <span class="text-danger font-weight-bold font-italic"> 
+                                            "Jungle Safari" </span> is also one of 
+                                        our popular one. Nepal is a country inhabited 
+                                        with various kinds of Birds, Animals and Plants.</p>
+                                    <a href="#" class="btn btn-primary">
+                                        <i class="fa fa-database" aria-hidden="true"></i> More Details </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="calendar">
+                            <div class="month bg-danger">
+                                <div class="prev" onclick="moveDate('prev')">
+                                    <span>&#10094;</span>
+                                </div>
+                                <div>
+                                    <h4 id="month"></h4>
+                                    
+                                </div>
+                                <div class="next" onclick="moveDate('next')">
+                                    <span>&#10095;</span>
+                                </div>
+                            </div>
+                            <div class="weekdays font-weight-bold text-dark">
+                                <div>Sun</div>
+                                <div>Mon</div>
+                                <div>Tue</div>
+                                <div>Wed</div>
+                                <div>Thu</div>
+                                <div>Fri</div>
+                                <div>Sat</div>
+                                
+                            </div>
+                            <div class="days">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="img/six.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title"> Mountain Tour </h5>
+                            <p class="card-text"> Boudhanath is one of the famous 
+                                place in Kathmandu. It is also known as Monkey Temple.
+                            </p>
+                            <a href="#" class="btn btn-primary"> 
+                                <i class="fa fa-database" aria-hidden="true"></i> More Details </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-primary">
+                        <div class="card-body">
+                            <h5 class="text-center text-white"> Something Here </h5>
+                            <p class="card-text text-light"> Coming Soon... </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-warning">                       
+                        <div class="card-body">
+                            <h5 class="card-title text-center"> Galaxy Shopping Nepal </h5>
+                            <p class="card-text text-justify"> We have our own online shopping 
+                                page as well. Don't forget to like, follow and turn on
+                                the notification of the page for the <span class="text-danger font-weight-bold">Exclusive Offers</span> 
+                                and<span class="text-danger font-weight-bold"> Discounts.</span> Your orders will be delivered in your 
+                                door without any additional charge. Stay Tuned. Here 
+                                is the link of our shopping page you may like.
+                            </p>                            
+                            <a href="https://www.facebook.com/Galaxy-shopping-101832904581343/" 
+                               target="_blank" class="btn btn-primary">                                 
+                                <i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i> 
+                                <i class="fa fa-hand-o-right fa-2x" aria-hidden="true"></i> 
+                                <i class="fa fa-facebook-square fa-2x" aria-hidden="true"></i>
+                            </a>
+                        </div>                        
+                    </div>
+                </div>                
+            </section>
+            <footer class="row  bg-info">
+                <div class="col">
+                    <p class="text-light text-center mt-2 mb-2"> Copyright &copy<br>Dhakal Anil </p>
+                </div>
+            </footer>
+        </div>  
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+                integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+        crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+                integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+        crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+                integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+        crossorigin="anonymous"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>        
+        <script src="js/galaxy.js"></script>
+    </body>
+</html>

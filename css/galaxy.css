@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 17, 2019, 9:32:40 AM
+    Author     : Dhakal Anil
+*/
+
+body {
+    background-color: #6c757d;
+    width: 100%;
+}
+
+.calendar {
+            margin: auto;
+            background-color: #fff;
+            box-shadow: 0px 0px 15px 4px rgba(0, 0, 0, 0.2);
+       
+        }
+
+        .month {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px 20px;
+            text-align: center;
+            background-color: #2ecc71;
+            color: #fff;
+        }
+
+        .weekdays {
+            background-color: lightsteelblue;
+            color: #fff;
+            padding: 4px 0;
+            display: flex;
+        }
+
+        .days {
+            font-weight: 300;
+            padding: 10px 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .weekdays div,
+        .days div {
+            text-align: center;
+            width: 14.28%;
+        }
+
+        .days div {
+            padding: 10px 0;
+            margin-bottom: 10px;
+            transition: all 0.4s;
+        }
+
+        .prev_date {
+            color: #999;
+        }
+
+        .today {
+            background-color: #27ae60;
+            color: #fff;
+        }
+
+        .days div:hover {
+            cursor: pointer;
+            background-color: #dfe6e9
+        }
+
+        .prev,
+        .next {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            font-size: 23px;
+            background-color: rgba(0, 0, 0, 0.1);
+            transition: all 0.4s;
+        }
+
+        .prev:hover,
+        .next:hover {
+            cursor: pointer;
+            background-color: rgba(0, 0, 0, 0.2);
+}
+
+.parallax {
+    background-image: url("../img/nine.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax1 {
+    background-image: url("../img/eleven.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.parallax2 {
+    background-image: url("../img/ten.jpg");
+    height: 500px;
+    margin-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#pic {
+    background-image: url("../img/one-i.jpg");
+}
